@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gatewayService
+  config:
+    import: configserver:http://localhost:8051/
+  cloud:
+    config:
+      profile: dev
+
+
+
+
