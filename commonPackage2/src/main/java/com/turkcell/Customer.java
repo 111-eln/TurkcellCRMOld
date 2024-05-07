@@ -1,8 +1,6 @@
-package com.turkcell.TurkcellCRM.orderService.entities.concretes;
-
-import com.turkcell.TurkcellCRM.commonPackage.Gender;
-import com.turkcell.TurkcellCRM.orderService.core.BaseEntity;
-import jakarta.persistence.*;
+package com.turkcell;
+import com.turkcell.BaseEntity;
+import com.turkcell.
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
