@@ -1,6 +1,6 @@
 package com.turkcell.TurkcellCRM.searchService.kafka;
 
-import com.turkcell.CustomerCreatedEvent;
+import com.turkcell.TurkcellCRM.commonPackage.CustomerCreatedEvent;
 import com.turkcell.TurkcellCRM.searchService.business.abstracts.SearchService;
 import com.turkcell.TurkcellCRM.searchService.entities.Customer;
 

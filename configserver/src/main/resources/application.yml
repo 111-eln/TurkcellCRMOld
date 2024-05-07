@@ -7,4 +7,4 @@ spring:
         git:
           uri: https://github.com/111-eln/TurkcellCRM-config-server.git
 server:
-  port: 8051
+  port: 8052
