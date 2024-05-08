@@ -2,7 +2,7 @@ spring:
   application:
     name: gatewayService
   config:
-    import: configserver:http://localhost:8051/
+    import: configserver:http://localhost:8052/
   cloud:
     config:
       profile: dev
