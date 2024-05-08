@@ -8,18 +8,18 @@ eureka:
     instance-id: ${spring.application.name}:${instanceId:${random.value}}
     preferIpAddress: true
 server:
-  port: 9015
-  #normalde buras? 0 olmal? her instance iï¿½in otomatik port atamas? yapar
+  port: 9019
+  #normalde buras? 0 olmal? her instance için otomatik port atamas? yapar
 spring:
   application:
-    name: order-service
+    name: customer-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/crmTurkcellOrderdb
+    url: jdbc:postgresql://localhost:5432/crmTurkcellCustomerdb
     username: postgres
     password: 12345
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
@@ -28,11 +28,3 @@ spring:
           validation:
             mode: none
     show-sql: true
-  kafka:
-    producer:
-      bootstrap-servers: localhost:9092
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-    springdoc:
-      swagger-ui:
-        disable-swagger-default-url: true

@@ -1,8 +1,12 @@
 package com.turkcell.TurkcellCRM.orderService.entities.concretes;
 
+
+import com.turkcell.TurkcellCRM.commonPackage.BaseEntity;
 import com.turkcell.TurkcellCRM.commonPackage.Gender;
-import com.turkcell.TurkcellCRM.orderService.core.BaseEntity;
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

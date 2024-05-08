@@ -1,11 +1,12 @@
 package com.turkcell.TurkcellCRM.orderService.entities.concretes;
 
-import com.turkcell.TurkcellCRM.orderService.core.BaseEntity;
+import com.turkcell.TurkcellCRM.commonPackage.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.antlr.v4.runtime.misc.NotNull;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data

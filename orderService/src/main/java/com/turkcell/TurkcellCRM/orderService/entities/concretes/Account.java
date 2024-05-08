@@ -1,6 +1,8 @@
 package com.turkcell.TurkcellCRM.orderService.entities.concretes;
 
-import com.turkcell.TurkcellCRM.orderService.core.BaseEntity;
+
+
+import com.turkcell.TurkcellCRM.commonPackage.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +15,9 @@ import lombok.NoArgsConstructor;
 @Table(name = "accounts")
 public class Account extends BaseEntity {
 
-
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "order_id", referencedColumnName = "id")
+    private Order order;
     @ManyToOne
     @JoinColumn(name = "customer_id")
     private Customer customer;
