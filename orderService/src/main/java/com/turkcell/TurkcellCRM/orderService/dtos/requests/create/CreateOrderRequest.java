@@ -12,15 +12,15 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 public class CreateOrderRequest {
-    @NotNull
-    private int accountId;
-    @NotNull
+//    @NotNull
+//    private int accountId;
+//    @NotNull
     private int addressId;
-    @NotNull
+//    @NotNull
     private int customerId;
     @NotNull
     private int totalAmount;
-    @NotNull
+//    @NotNull
     private List<Product> products;
 
 }

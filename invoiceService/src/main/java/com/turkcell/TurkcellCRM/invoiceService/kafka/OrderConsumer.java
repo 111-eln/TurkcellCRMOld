@@ -1,7 +1,6 @@
 package com.turkcell.TurkcellCRM.invoiceService.kafka;
 
-import com.turkcell.CustomerCreatedEvent;
-import com.turkcell.OrderCreatedEvent;
+import com.turkcell.TurkcellCRM.commonPackage.OrderCreatedEvent;
 import com.turkcell.TurkcellCRM.invoiceService.business.InvoiceService;
 import com.turkcell.TurkcellCRM.invoiceService.entities.Order;
 import lombok.RequiredArgsConstructor;

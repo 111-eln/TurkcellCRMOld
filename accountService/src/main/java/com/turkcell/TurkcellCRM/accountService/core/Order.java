@@ -1,4 +1,4 @@
-package com.turkcell.TurkcellCRM.orderService.entities.concretes;
+package com.turkcell.TurkcellCRM.accountService.core;
 
 import com.turkcell.TurkcellCRM.commonPackage.BaseEntity;
 import jakarta.persistence.*;
@@ -16,9 +16,9 @@ import java.util.List;
 public class Order extends BaseEntity {
 
 
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "account_id", referencedColumnName = "id")
-//    private Account account;
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "account_id", referencedColumnName = "id")
+    private Account account;
 
     @ManyToOne
     @JoinColumn(name = "address_id")
@@ -31,6 +31,6 @@ public class Order extends BaseEntity {
     @Column(name = "totalAmount")
     private int totalAmount;
 
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "order")
     private List<Product> products;
 }

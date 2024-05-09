@@ -8,13 +8,13 @@ eureka:
     instance-id: ${spring.application.name}:${instanceId:${random.value}}
     preferIpAddress: true
 server:
-  port: 9019
-  #normalde buras? 0 olmal? her instance için otomatik port atamas? yapar
+  port: 9023
+  #normalde buras? 0 olmal? her instance iï¿½in otomatik port atamas? yapar
 spring:
   application:
-    name: customer-service
+    name: account-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/crmTurkcellCustomerdb
+    url: jdbc:postgresql://localhost:5432/crmTurkcellAccountdb
     username: postgres
     password: 12345
   jpa:

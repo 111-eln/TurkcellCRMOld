@@ -1,6 +1,5 @@
 package com.turkcell.TurkcellCRM.orderService.kafka.producers;
 
-import com.turkcell.TurkcellCRM.commonPackage.CustomerCreatedEvent;
 import com.turkcell.TurkcellCRM.commonPackage.OrderCreatedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
