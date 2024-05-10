@@ -15,7 +15,7 @@ spring:
   data:
     mongodb:
       database: searchServcieDb
-      uri: mongodb://localhost:27017
+      uri: mongodb://localhost:27019
   kafka:
     consumer:
       auto-offset-reset: latest
