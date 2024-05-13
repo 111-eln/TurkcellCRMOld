@@ -1,0 +1,8 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ş¾—µûÿÿÿÿJ$bfc69017-a10e-444c-a365-fba5733214a9
+@
+java:S6396""#Remove this unnecessary quantifier.(¥ÔÅÓ8üó°™÷1
+@
+java:S6396""#Remove this unnecessary quantifier.(¥ÔÅÓ8üó°™÷1
+Y
+java:S6353""<Use concise character class syntax '\\d' instead of '[0-9]'.(¥ÔÅÓ8şó°™÷1

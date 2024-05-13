@@ -19,10 +19,9 @@ public class OrderConsumer {
         Order order = new Order();
         order.setProducts(orderCreatedEvent.getProducts());
         order.setAddress(orderCreatedEvent.getAddress());
-        order.setTotalAmount(order.getTotalAmount());
+        order.setTotalAmount(orderCreatedEvent.getTotalAmount());
 
         LOGGER.info(String.format("Order consumed =>%s",order.toString()));
         this.invoiceService.add(order);
     }
-
 }

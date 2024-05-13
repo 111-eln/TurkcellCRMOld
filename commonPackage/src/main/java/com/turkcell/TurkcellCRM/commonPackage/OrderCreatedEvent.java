@@ -14,15 +14,9 @@ import java.util.List;
 public class OrderCreatedEvent {
 //    private Address address;
     private String city;
-
     private String street;
-
     private String houseNumber;
-
     private String addressDescription;
-
     private List<Product> products;
-
     private int totalAmount;
-
 }

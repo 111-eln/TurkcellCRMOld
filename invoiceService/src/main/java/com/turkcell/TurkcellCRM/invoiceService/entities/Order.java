@@ -22,10 +22,8 @@ public class Order {
     @Id
     private String id;
 
-
     @Field(name="address")
     private Address address;
-
 
     @Field(name="totalAmount")
     private int totalAmount;

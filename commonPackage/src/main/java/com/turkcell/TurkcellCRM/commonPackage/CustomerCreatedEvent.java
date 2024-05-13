@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CustomerCreatedEvent {
-
     private String firstName;
     private String secondName;
     private String lastName;
@@ -19,8 +18,5 @@ public class CustomerCreatedEvent {
     private Gender gender;
     private String fatherName;
     private String motherName;
-
     private String nationalityNumber;
-
-
 }

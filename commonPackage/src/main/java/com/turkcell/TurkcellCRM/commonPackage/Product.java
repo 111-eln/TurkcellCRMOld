@@ -14,8 +14,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "products")
 public class Product extends BaseEntity {
-
-
     @Column(name = "title")
     private String title;
 
@@ -27,5 +25,4 @@ public class Product extends BaseEntity {
 
     @Column(name = "unitOfStock")
     private int unitOfStock;
-
 }

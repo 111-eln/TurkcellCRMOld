@@ -1,0 +1,6 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡ýê±ùÿÿÿÿJ$cf149a49-2c87-49a3-a770-2a5a814b3db5
+œ
+java:S1128"`Remove this unused import 'org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails'.(¸¨ö J$8d5ef919-7c35-4c91-9a99-316741f55ae4
+l
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿJ$5a81e9a7-fb6a-433b-b00d-b24d1850eb1c

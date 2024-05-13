@@ -31,5 +31,4 @@ public class CustomerConsumer {
         LOGGER.info(String.format("Customer consumed =>%s",customer.toString()));
         this.searchService.add(customer);
     }
-
 }

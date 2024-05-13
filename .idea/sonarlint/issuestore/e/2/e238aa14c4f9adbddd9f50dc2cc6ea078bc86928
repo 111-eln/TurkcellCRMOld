@@ -1,0 +1,9 @@
+
+³
+java:S1488<"kImmediately return this expression instead of assigning it to the temporary variable "getCustomerResponse".(„ÔÛîùÿÿÿÿ8ÙÜë˜÷1J$ef198182-ea00-4583-a155-164c1a6e420d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•£„Êúÿÿÿÿ8ÜÜë˜÷1J$decec4fe-d300-404d-9ba2-46b2e7d7f763
+m
+java:S36553"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ì¸Õ¾8åµû˜÷1
+r
+java:S3655;"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(»ÛüËüÿÿÿÿ8åµû˜÷1
+ƒ	java:S1254"<This block of commented-out lines of code should be removed.(ÀãÖ÷úÿÿÿÿ8ïÜë˜÷1J$b10a706f-5250-47b5-8cd0-c6c29dd8a349
